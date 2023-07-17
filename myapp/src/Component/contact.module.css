@@ -1,0 +1,46 @@
+.bg{
+    background-color: #071e60;
+    background-image: url(Contactbg.jpg);
+    background-position: center;
+    padding-bottom: 5vh;
+    padding-top: 20vh;
+    background-size: 250vw;
+    background-repeat: no-repeat;
+}
+h1{
+    color: #fbba02;
+    font-weight: 500;
+    font-family: Viga-Regular;
+    text-align: center;
+    font-size: 6vh;
+    padding-bottom:1vh ;
+}
+h2{
+    color: #ffffff;
+    font-family: Viga-Regular;
+    text-align: center;
+    font-size: 3.5vh;
+}
+.star{
+   
+    width: 17%;
+    height:auto;
+    margin-left: 42vw;
+    padding-bottom: 5vh;
+    }
+.para1{
+    text-align: center;
+    color: #ffffff;
+}
+.imgfrm{
+    width: 93%;
+    margin-top: 5vh;
+    margin-left:2vw;
+}
+h3{
+color:#009318 ;
+font-family:Viga-Regular ;
+margin-top: 5.5vh;
+font-size: 3.2vh;
+font-weight: 600;
+}

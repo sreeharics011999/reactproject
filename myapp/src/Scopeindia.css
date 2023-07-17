@@ -1,0 +1,27 @@
+li{
+    display:inline;
+    margin: 100px;
+}
+.img2{
+    margin-left: 50%;
+    
+}
+.div1{
+ display: flex;
+ color: white;
+ justify-content: center;
+ height: 80px;
+ display :block;
+ 
+}
+.nav{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    justify-content: end;
+}
+ul{
+    display: inline;
+}
+
+
