@@ -11,7 +11,7 @@ let Home=()=>{
             <img src={Scope} alt="scope" className="position-absolute top-50 start-50 w-auto h-auto translate-middle"/>
           
 <img src={Subbg}/>
-<p>hello</p>
+
         </div>
     )
     
