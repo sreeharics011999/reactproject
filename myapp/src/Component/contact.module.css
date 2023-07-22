@@ -14,7 +14,7 @@ h1{
     font-size: 6vh;
     padding-bottom:1vh ;
 }
-h2{
+.dis{
     color: #ffffff;
     font-family: Viga-Regular;
     text-align: center;
@@ -36,9 +36,10 @@ h2{
     height:100%;
  
 }
-h3{
+.call{
 color:#009318 ;
 font-family:Viga-Regular ;
 font-size: 3.2vh;
 font-weight: 600;
 }
+
