@@ -1,50 +1,49 @@
-.card-link{
-text-decoration: none;
-display: block;
-color: white;
-margin-left: 1vw;
-margin-bottom: 1vh;
+.card-link {
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin-left: 1vw;
+    margin-bottom: 1vh;
 }
-.card-link:hover{
+
+.card-link:hover {
     text-decoration: underline;
     color: white;
 }
-.card-title{
+
+.card-title {
     font-family: Viga-Regular;
-    font-weight: 500;
-    font-size: x-large;
+    font-weight: 900;
+    font-size: 26px;
     margin-bottom: 1vh;
 }
-.list{
+
+.list {
     margin-right: 1vw;
 }
-.location{
+
+.location {
     color: #ffffff;
     font-family: Viga-Regular;
     font-size: 4vh;
-    margin-left: 7vw;
     margin-top: 7vh;
     margin-bottom: vh;
 }
+
 @media only screen and (max-width: 768px) {
     .card {
-      margin-bottom: 5vh;
-      text-align: center;
+        margin-bottom: 5vh;
+        text-align: center;
     }
-    .col-lg-3{
-        margin-left:18% ;
+    .row{
+     
     }
-    .col-lg-4{
-        margin-left:10% ;
-    }
-    .col-lg-5{
-        margin-left: 10%;
-    }
-    .location{
+
+    .location {
         text-align: center;
         font-size: xx-large;
     }
-  }
-  .row{
-    margin-left: 10%;
-  }
+}
+*{
+    overflow: visible;
+}

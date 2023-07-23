@@ -1,8 +1,8 @@
-import Scope from "./Scope.png"
-import Scopebackground from "./Scopebackground.jpg"
-import Subbg from "./Subbg.png"
+import Scope from "./images/Scope.png"
+import Scopebackground from "./images/Scopebackground.jpg"
+import Subbg from "./images/Subbg.png"
 import styles from "./home.module.css"
-import Carosal from "./Carosal.jpg"
+import Carosal from "./images/Carosal.jpg"
 let Home=()=>{
     return(
         <div>

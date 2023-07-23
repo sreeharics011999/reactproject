@@ -10,6 +10,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Scopeindia/>
+    
   </React.StrictMode>
 );
 

@@ -1,0 +1,48 @@
+.section2 {
+  background-color: #071e60;
+  ;
+}
+
+.link3 {
+  text-decoration: none;
+  color: white;
+}
+
+.link2 {
+  text-decoration: none;
+  color: white;
+  padding-left: 1vw;
+}
+
+.link2:hover {
+  text-decoration: underline;
+  color: white;
+  opacity: 100%;
+}
+
+.link3:hover {
+  text-decoration: underline;
+  color: white;
+  opacity: 100%;
+}
+
+.span2 {
+  opacity: 75%;
+}
+
+.last {
+  margin-left: 32vw;
+  font-size: 1.6vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 9vh;
+  margin-top: 2vh;
+}
+.fotimg2{
+  width: 20%;
+}
+@media only screen and (max-width: 768px) {
+  .img6 {
+     width: 75%;
+  }
+  
+}
