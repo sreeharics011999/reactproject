@@ -1,0 +1,13 @@
+.caroselbg{
+    display: flex;
+    overflow-x: scroll;
+    justify-content:space-around;
+}
+.caroselimg{
+    /* padding-right: 10%; */
+    /* background-color: #071e60; */
+    margin-left: 200px;
+}
+.NavLink{
+margin-left: 200px;
+}

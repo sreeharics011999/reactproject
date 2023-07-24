@@ -1,11 +1,12 @@
-.background{
-    background-color: #071e60;
+.backhome{
     background-image: url(images/Scopebackground.jpg);
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position:center top;
+    background-size: 256vw;
+    
 }
 .scopeimg{
-   margin-left: 28%;
-   margin-top: 27%;
-   margin-right: auto;
+   margin-left: 36%;
+   margin-top: 18%;
+   margin-bottom: 25%;
 }
