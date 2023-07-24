@@ -32,9 +32,6 @@ h1{
     color: #ffffff;
     padding-bottom: 4vh;
 }
-.container{
-    width:55.2vw
-}
 .aboutlast{
     display: flex;
     justify-content: space-around;
