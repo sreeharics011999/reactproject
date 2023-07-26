@@ -2,6 +2,7 @@
     display: flex;
     overflow-x: scroll;
     justify-content:space-around;
+    border:2px solid white;
 }
 .caroselimg{
     /* padding-right: 10%; */
