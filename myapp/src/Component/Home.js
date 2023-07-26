@@ -8,11 +8,12 @@ let Home=()=>{
             <div clasName="bg">
                 <div clasName="container">
                 <img src={Scope} alt="scope" className="scopeimg"/>
+                <Carosel/>
                 <img src={Subbg}/>
                 </div>
 
             </div>
-            <Carosel/>
+            
 
         </div>
     )
