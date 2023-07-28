@@ -2,23 +2,32 @@
     .img2{
        position: absolute;
        top:15%;
-       left:45%;
+       left:49%;
     }
     .nav-link{
         display: inline;
     }
     .nav1{
-        display: flex;
-        justify-content: space-evenly;
-    
+        display: inline;
+        margin-left: 24%;
+    }
+    .nav2{
+        display: inline;
+        margin-left: 18%;
     }
 }
 .btnreg{
     outline: darkorange;
-    background-image:linear-gradient(180deg, rgb(247, 67, 67), rgb(250, 193, 8));
+    background-image:linear-gradient(180deg, rgb(241, 113, 63),rgb(250, 193, 8), rgb(250, 193, 8));
     color: white;
     font-weight: 600;
 }
 .btn:hover{
     color: white;
+}
+*{
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    overflow: hidden;
 }

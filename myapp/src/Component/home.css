@@ -1,13 +1,179 @@
-.backhome{
-    background-image: url(images/Scopebackground.jpg);
+.backhome {
+    background-image: url(images/slider_bg.jpg);
     background-repeat: no-repeat;
-    background-position:center top;
-    background-size: 256vw;
-    
+    background-position: center top;
+    background-size: cover;
+
+
 }
-.scopeimg{
-   margin-left: 28%;
-   margin-top: 12%;
-   margin-bottom: 20%;
-   
+
+.scopeimg {
+    margin-left: 30%;
+    margin-top: 12%;
+    margin-bottom: 20%;
+
+}
+
+.imgfrm {
+    width: 100%;
+    height: auto;
+
+}
+
+.imgpng {
+    overflow: hidden;
+    background-color: #063c81;
+}
+
+.call {
+    color: #009318;
+    font-family: Viga-Regular;
+    font-size: 3.2vh;
+    font-weight: 600;
+}
+
+.container2 {
+    padding: 2%;
+    padding-bottom: 8vh;
+    background-image: url("https://scopeindia.org/images/si-call-back-bg.jpg");
+    width: 55%;
+    height: 100%;
+}
+
+.callme {
+    background-color: #3ec93e;
+    color: white;
+    font-weight: 900;
+    width: 92%;
+}
+
+.form1 {
+    width: 92%
+}
+
+.frmh2 {
+    font-weight: 700;
+    color: #071e60;
+    font-family: Viga-Regular;
+    margin-bottom: 7%;
+}
+
+.frmp {
+    color: #071e60;
+}
+
+.discription-container {
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.discription-para,
+.discription-h2,
+.discription-h1,
+h4,
+p {
+    color: #071e60;
+}
+
+.discription-h2 {
+    font-size: 250%;
+    font-family: viga-regular;
+    text-align: center;
+}
+
+.discription-h1 {
+    padding-top: 0vh;
+}
+
+.card {
+    border: 0px
+}
+
+h4,
+p {
+    text-align: center;
+}
+
+.ulimg {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul-container {
+    margin-top: 5%;
+
+}
+
+.section-container,
+.footertop-container {
+    background-color: #071e60;
+    ;
+}
+
+.link3 {
+    text-decoration: none;
+    color: white;
+}
+
+.link2 {
+    text-decoration: none;
+    color: white;
+    padding-left: 1vw;
+}
+
+.link2:hover {
+    text-decoration: underline;
+    color: white;
+    opacity: 100%;
+}
+
+.link3:hover {
+    text-decoration: underline;
+    color: white;
+    opacity: 100%;
+}
+
+.span2 {
+    opacity: 75%;
+}
+
+.last {
+    margin-left: 32vw;
+    font-size: 1.6vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 9vh;
+    margin-top: 2vh;
+}
+
+.fotimg2 {
+    width: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    .img6 {
+        width: 75%;
+    }
+
+}
+
+.adiv2 {
+    margin-top: 10vh;
+}
+
+.adiv3 {
+    margin-top: 5vh;
+}
+
+.toptext1 {
+    color: rgb(63, 156, 168);
+    font-weight: bolder;
+    font-size: 6vh;
+
+}
+
+.btmtext1 {
+    color: #ffffff;
+    letter-spacing: .2vw;
+    font-weight: bold;
 }
