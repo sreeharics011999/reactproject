@@ -1,0 +1,60 @@
+.coursesbg{
+    background-color: #071e60;
+    background-image: url(../images/Contactbg.jpg);
+    background-size: 215vw;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.container{
+    overflow: scroll;
+}
+h6{
+    color: white;
+    font-family: viga-Regular;
+    font-size: x-large;
+    text-align: center;
+}
+.courseimg{
+    margin-left: 20%;
+    width: auto;
+    height: auto;
+}
+.star{
+   width: 25%;
+    height:auto;
+    margin-left: 37%;
+    }
+.courses-col{
+    background-color: white;
+    color: blue;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-size: x-large;
+    width: 22vw;
+}    
+h3{
+    color: aliceblue;
+    font-family: viga-Regular;
+}
+@media only screen and (max-width: 786px) {
+    .courses-col{
+        width:100%;
+        margin:2%
+    }
+    .star{
+        margin-left: 36%;
+    }
+    .courseimg{
+      width:100%;
+      margin-left: 0%;    
+    }
+
+  }
+  .top1{
+    background-color: #071e60;
+  }
+  .nav-course{
+    text-decoration: none;
+    display: contents;
+  }

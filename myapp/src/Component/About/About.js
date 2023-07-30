@@ -1,6 +1,8 @@
 import "./about.css"
-import star from "./images/star.png"
-import Footer from "./Footer"
+import star from "../images/star.png"
+import contact2bg from "../images/contact2bg.png"
+import Footer from "../Footer/Footer"
+import Footertop from "../Footertop/Footertop"
 let About = () => {
     return (
         <div>
@@ -20,26 +22,16 @@ let About = () => {
                     <p className="para1">This is how SCOPE INDIA can support both newbies and experienced in the industry to upgrade their skills.</p>
                     <img className="star" src={star} />
                     <p className="text-center text-light">Google 4.9 * Rated Institute</p>
-                    <div class="d-grid gap-3  mx-auto mt-4 pt-5">
+                    <div class="d-grid gap-3  mx-auto mt-4 pt-5 btnabout">
                         <button class="btn  pb-3 h-100 " style={{ backgroundColor: " #7c62bd", color: "white", borderRadius: "6px", borderColor: "#5c1eff" }} type="button">Recent placements</button>
                         <button class="btn  pb-3 h-100" style={{ backgroundColor: " #62bdb4", color: "white", borderRadius: "6px", borderColor: "#35e9d7" }} type="button">Courses</button>
                         <button class="btn  pb-3 h-100" style={{ backgroundColor: "  #5ead5e", color: "white", borderRadius: "6px", borderColor: "#32d732" }} type="button">Register Now!</button>
                     </div>
-                    <div className="row aboutlast">
-                        <div className="adiv col-lg-4">
-                            <h4 className="toptext">1000+</h4>
-                            <h5 className="btmtext">STUDENTS ARE<br />TRAINED EVERY YEAR</h5>
-                        </div>
-                        <div className="adiv1 col-lg-4">
-                            <h4 className="toptext">30+</h4>
-                            <h5 className="btmtext">COMPUTER COURSES</h5>
-                        </div>
-                        <div className="adiv col-lg-4">
-                            <h4 className="toptext">95%</h4>
-                            <h5 className="btmtext">STUDENTS ARE GETTING<br />PLACED EVERY YEAR</h5>
-                        </div>
-                    </div>
+                    <Footertop/>
                 </div>
+            </div>
+            <div className="section2">
+                <img className="w-100" src={contact2bg} />
             </div>
             <Footer/>
         </div>

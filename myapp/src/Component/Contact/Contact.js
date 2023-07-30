@@ -2,10 +2,10 @@ import { NavLink } from "react-router-dom"
 import styles from "./contact.module.css"
 import { BsGeoAltFill, BsMap, BsFillTelephoneFill, BsLink45Deg } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
-import star from "./images/star.png"
+import star from "../images/star.png"
 import "./contact.css"
-import Footer from "./Footer";
-import Form from "./Form";
+import Footer from "../Footer/Footer";
+import Form from "../Form/Form";
 let Contact = () => {
   return (
     <div>

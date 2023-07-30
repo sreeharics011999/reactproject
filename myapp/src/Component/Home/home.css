@@ -1,8 +1,7 @@
 .backhome {
-    background-image: url(images/slider_bg.jpg);
+    background-image: url(../images/slider_bg.jpg);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover;
 
 
 }
@@ -14,53 +13,14 @@
 
 }
 
-.imgfrm {
-    width: 100%;
-    height: auto;
 
-}
 
 .imgpng {
     overflow: hidden;
     background-color: #063c81;
 }
 
-.call {
-    color: #009318;
-    font-family: Viga-Regular;
-    font-size: 3.2vh;
-    font-weight: 600;
-}
 
-.container2 {
-    padding: 2%;
-    padding-bottom: 8vh;
-    background-image: url("https://scopeindia.org/images/si-call-back-bg.jpg");
-    width: 55%;
-    height: 100%;
-}
-
-.callme {
-    background-color: #3ec93e;
-    color: white;
-    font-weight: 900;
-    width: 92%;
-}
-
-.form1 {
-    width: 92%
-}
-
-.frmh2 {
-    font-weight: 700;
-    color: #071e60;
-    font-family: Viga-Regular;
-    margin-bottom: 7%;
-}
-
-.frmp {
-    color: #071e60;
-}
 
 .discription-container {
     background-color: white;
@@ -166,8 +126,9 @@ p {
 }
 
 .toptext1 {
-    color: rgb(63, 156, 168);
+    color:#0095eb;
     font-weight: bolder;
+    font-family: viga-regular;
     font-size: 6vh;
 
 }
@@ -176,4 +137,22 @@ p {
     color: #ffffff;
     letter-spacing: .2vw;
     font-weight: bold;
+}
+.tittleh4{
+    
+}
+.Navcard{
+    text-decoration: none;
+}
+.top{
+    background-color: white;
+}
+.line{
+    width: 60px;
+    height: 4px;
+    background-color: green;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 10%;
 }

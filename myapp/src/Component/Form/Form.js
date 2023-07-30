@@ -1,6 +1,6 @@
-import  formimg from "./images/formimg.jpg"
+import  formimg from "../images/formimg.jpg"
 import {NavLink} from "react-router-dom"
-import styles from "./contact.module.css"
+import styles from "../Contact/contact.module.css"
 let Form=()=>{
     return(
         <div>
@@ -17,7 +17,7 @@ let Form=()=>{
                                     <input type="text" class="form-control" placeholder="Enter your name" id="exampleInputPassword1" />
                                 </div>
                                 <div className="form1 mt-3" >
-                                    <input type="number" class="form-control" placeholder="Enter your phone no." id="exampleInputPassword1" />
+                                    <input type="tel" class="form-control" placeholder="Enter your phone no." id="exampleInputPassword1" />
                                 </div>
                                 <div class="d-grid   mx-auto mt-4  ">
                                     <button class="btn  pb-2" style={{ backgroundColor: "#00FF00", color: "white", fontWeight: "900" }} type="button">Call Me</button>

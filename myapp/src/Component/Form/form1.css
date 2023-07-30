@@ -1,0 +1,41 @@
+.call {
+    color: #009318;
+    font-family: Viga-Regular;
+    font-size: 3.2vh;
+    font-weight: 600;
+}
+
+.container2 {
+    padding: 2%;
+    padding-bottom: 8vh;
+    background-image: url("https://scopeindia.org/images/si-call-back-bg.jpg");
+    width: 55%;
+    height: 100%;
+}
+
+.callme {
+    background-color: #3ec93e;
+    color: white;
+    font-weight: 900;
+    width: 92%;
+}
+
+.form1 {
+    width: 92%
+}
+
+.frmh2 {
+    font-weight: 700;
+    color: #071e60;
+    font-family: Viga-Regular;
+    margin-bottom: 7%;
+}
+
+.frmp {
+    color: #071e60;
+}
+.imgfrm {
+    width: 100%;
+    height: auto;
+
+}

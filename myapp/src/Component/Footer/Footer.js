@@ -1,15 +1,11 @@
 import { NavLink } from "react-router-dom"
-import contactscopelogo from "./images/contactscopelogo.png"
-import isologocontact from "./images/isologocontact.png"
-import contact2bg from "./images/contact2bg.png"
+import contactscopelogo from "../images/contactscopelogo.png"
+import isologocontact from "../images/isologocontact.png"
 import "./footer.css"
 
 let Footer = () => {
     return (
         <div>
-            <div className="section2">
-                <img className="w-100" src={contact2bg} />
-            </div>
             <div className="section3 ">
                 <img className="d-block mx-auto mt-5 pt-5 img6" src={contactscopelogo} />
                 <img className="d-block mx-auto mt-4 fotimg2" src={isologocontact} />
