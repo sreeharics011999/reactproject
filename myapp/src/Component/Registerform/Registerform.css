@@ -1,0 +1,49 @@
+.regbg{
+    background-color: #071e60;
+    background-image: url(../images/Contactbg.jpg);
+    background-size: 215vw;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.reg-h1{
+    color: #fbba02;
+    font-weight: 500;
+    font-family: Viga-Regular;
+    text-align: center;
+    font-size: 6vh;
+    padding-top: 21vh;
+
+}
+.reg-h2{
+    color: #ffffff;
+    font-family: Viga-Regular;
+    text-align: center;
+    font-size: vh;
+    padding-bottom: 1vh;
+}
+.labelreg, .regcheck{
+    display: block;
+}
+label{
+    font-weight: 500;
+    font-family: viga-Regular;
+    margin-top: 3%;
+    margin-right: 2%;
+    /* margin-bottom: 5%; */
+
+}
+form{
+    border: 1px solid black;
+    margin: 8%;
+    padding: 5%;
+}
+.regbtn{
+    width:100%;
+    margin-top: 2%;
+    background-color: rgb(6, 150, 6);
+    color: #ffffff;
+}
+.locbg{
+    background-color: #071e60;
+}

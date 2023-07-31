@@ -5,6 +5,7 @@ import About  from "../About/About.js"
 import Courses from "../Courses/Courses.js"
 import Contact from "../Contact/Contact.js"
 import Navbar from "../Navbar/Navbar.js"
+import Registerform from "../Registerform/Registerform"
 let Scopeindia = () => {
   return (
     <div className="" style={{ backgroundColor: "#071e67" }}>
@@ -15,6 +16,7 @@ let Scopeindia = () => {
           <Route exact path="/About" element={<About/>}></Route>
           <Route exact path="/Contact" element={<Contact />}></Route>
           <Route exact path="/Courses" element={<Courses/>}></Route>
+          <Route exact path="/Registration" element={<Registerform/>}></Route>
         </Routes>
       </Router>
     </div>

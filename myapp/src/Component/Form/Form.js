@@ -20,12 +20,12 @@ let Form=()=>{
                                     <input type="tel" class="form-control" placeholder="Enter your phone no." id="exampleInputPassword1" />
                                 </div>
                                 <div class="d-grid   mx-auto mt-4  ">
-                                    <button class="btn  pb-2" style={{ backgroundColor: "#00FF00", color: "white", fontWeight: "900" }} type="button">Call Me</button>
+                                    <button class="btn  pb-2" style={{ width:"91%", backgroundColor: "#00FF00", color: "white", fontWeight: "900" }} type="button">Call Me</button>
                                 </div>
                                 <div class="d-grid gap-3  mx-auto mt-4 pt-5  ">
-                                    <button class="btn  mb-2 pb-2" style={{ backgroundColor: " #7c62bd", color: "white", borderRadius: "6px", borderColor: "#5c1eff" }} size={55} type="button">Recent placements</button>
-                                    <button class="btn  pb-2" style={{ backgroundColor: " #62bdb4", color: "white", borderRadius: "6px", borderColor: "#35e9d7" }} type="button">Courses</button>
-                                    <button class="btn  pb-2 " style={{ backgroundColor: "  #5ead5e", color: "white", borderRadius: "6px", borderColor: "#32d732" }} type="button">Register Now!</button>
+                                    <button class="btn  mb-2 pb-2 " style={{ width:"91%",backgroundColor: " #7c62bd", color: "white", borderRadius: "6px", borderColor: "#5c1eff" }} size={55} type="button">Recent placements</button>
+                                    <button class="btn  pb-2" style={{ width:"91%", backgroundColor: " #62bdb4", color: "white", borderRadius: "6px", borderColor: "#35e9d7" }} type="button">Courses</button>
+                                    <button class="btn  pb-2 " style={{ width:"91%", backgroundColor: "  #5ead5e", color: "white", borderRadius: "6px", borderColor: "#32d732" }} type="button">Register Now!</button>
                                 </div>
                             </form>
                         </div>

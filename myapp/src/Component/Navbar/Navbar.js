@@ -19,7 +19,7 @@ let Navbar = () => {
             <div className="navbar-nav nav2 ">
               <NavLink className="nav-link   " to="/About" style={({ isActive }) => ({ color: isActive ? "#FFC400" : "white" })}>Know SCOPE INDIA</NavLink>
               <NavLink className="nav-link  " to="/Contact" style={({ isActive }) => ({ color: isActive ? "#FFC400" : "white" })}>Contact us</NavLink>
-              <button class="btn btn-warning ms-3 btnreg " type="submit">Register Now</button>
+              <NavLink to="/Registration"><button class="btn btn-warning ms-3 btnreg " type="submit">Register Now</button></NavLink>
             </div>
           </div>
         </div>

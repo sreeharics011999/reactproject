@@ -54,7 +54,7 @@ let Home = () => {
                             <div className="line"></div>
                             <div className="card-body">
                                 <h4 className="card-title tittleh4">Training</h4>
-                                <p className="card-text justify-">You are trained under Suffix E <br/>Solutions working professionals,<br/> on-the-job training model.</p>
+                                <p className="card-text discription-para">You are trained under Suffix E <br/>Solutions working professionals,<br/> on-the-job training model.</p>
                             </div>
                         </div>
                         </NavLink>
@@ -63,7 +63,7 @@ let Home = () => {
                             <img src={ul2} className="card-img-top  ulimg" alt="..." />
                             <div className="card-body">
                                 <h4 className="card-title tittleh4">Internship</h4>
-                                <p className="card-text">After course completion, you will<br/> be proceeded to live projects<br/> with a 6 months experience<br/> certificate.</p>
+                                <p className="card-text discription-para">After course completion, you will<br/> be proceeded to live projects<br/> with a 6 months experience<br/> certificate.</p>
                             </div>
                         </div>
                         </NavLink>
@@ -72,7 +72,7 @@ let Home = () => {
                             <img src={ul3} className="card-img-top  ulimg" alt="..." />
                             <div className="card-body">
                                 <h4 className="card-title tittleh4">Grooming</h4>
-                                <p className="card-text">CV Preparation, Interview<br/> Preparation, and Personality<br/> Development.</p>
+                                <p className="card-text discription-para">CV Preparation, Interview<br/> Preparation, and Personality<br/> Development.</p>
                             </div>
                         </div>
                         </NavLink>
@@ -81,7 +81,7 @@ let Home = () => {
                             <img src={ul4} className="card-img-top  ulimg" alt="..." />
                             <div className="card-body">
                                 <h4 className="card-title tittleh4">Placement</h4>
-                                <p className="card-text">Gives 100% FREE placement<br/> support to all our fellow techies<br/> through SCOPE INDIA's <br/>Placement Cell.</p>
+                                <p className="card-text discription-para">Gives 100% FREE placement<br/> support to all our fellow techies<br/> through SCOPE INDIA's <br/>Placement Cell.</p>
                             </div>
                         </div>
                         </NavLink>
