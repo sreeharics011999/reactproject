@@ -13,7 +13,7 @@ let Registerform = () => {
                     <h2 className="reg-h2 text-light">It's just a matter of 60 days to an IT job!</h2>
                     <div className="row bg-light">
                         <div className="col-lg-6 regcol">
-                            <form>
+                            <form className="reg-form">
                                 <label className="labelreg">Full Name (required)</label>
                                 <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" />
                                 <label className="labelreg">Date of Birth (required)</label>
@@ -34,8 +34,62 @@ let Registerform = () => {
                                 <label className="labelreg">Educational Qualification</label>
                                 <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" />
                                 <label className="labelreg">Choose your course (required)</label>
-                                <select>
-                                    <option></option>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Choose your course!</option>
+                                    <optgroup label="Software Programming Courses">
+                                        <option value="volvo">PHP Advanced Full Stack Software Internship</option>
+                                        <option value="saab">PHP Intermediate Full Stack Software Internship</option>
+                                        <option value="volvo">PYTHON Advanced Full Stack Software Internship</option>
+                                        <option value="saab">PYTHON Intermediate Full Stack Software Internship</option>
+                                        <option value="volvo">JAVA Advanced Full Stack Software Internship</option>
+                                        <option value="saab">JAVA Intermediate Full Stack Software Internship</option>
+                                        <option value="volvo">.NET Core Advanced Full Stack Software Internship</option>
+                                        <option value="saab">.NET MVC Intermediate Full Stack Software Internship</option>
+                                        <option value="volvo">MEAN Full Stack Internship</option>
+                                        <option value="saab">MERN Full Stack Internship</option>
+                                        <option value="volvo">Python Guru (Adv. Data Scientist)</option>
+                                        <option value="saab">Advanced Python (Python/Django/MySQL)</option>
+                                        <option value="volvo">Google Flutter Mobile App Development (iOS/Android)</option>
+                                        <option value="saab">Digital Marketing Master Program</option>
+                                    </optgroup>
+                                    <optgroup label="Software Testing Courses">
+                                        <option value="volvo">Software Testing Advanced Internship (Manual/Automation)</option>
+                                        <option value="saab">Software Testing Intermediate Internship (Manual/Automation)</option>
+                                        <option value="volvo">Software Testing Manual (ISTQB)</option>
+                                        <option value="saab">Software Testing Manual (ISTQB)</option>
+                                        <option value="volvo">Selenium TestNG & Cucumber/Appium Mobile/QTP/Loadrunner/Jmeter/Jira</option>
+                                    </optgroup>
+                                    <optgroup label="Computer Networking & Server Courses">
+                                        <option value="volvo">Computer Networking (CCNA)</option>
+                                        <option value="saab">Server Admin (MCSE)</option>
+                                        <option value="volvo">Server Admin (RHCE)</option>
+                                        <option value="saab">Networking & Server Admin (CCNA/MCSE/Hardware)</option>
+                                        <option value="volvo">Networking & Server Admin (CCNA/RHCE/Hardware)</option>
+                                        <option value="saab">Networking & Server Admin (CCNA/MCSE/RHCE/Hardware)</option>
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Security Surveillance & Networking Internship (CCNA/CCTV/Hardware)</option>
+                                    </optgroup>
+                                    <optgroup label="Cloud Computing Courses">
+                                        <option value="volvo">Cloud Admin (AWS/MS AZURE)</option>
+                                        <option value="saab">Cloud & Networking Admin (CCNA/AWS/Hardware)</option>
+                                        <option value="volvo">Cloud & Networking Admin (CCNA/MS Azure/Hardware)</option>
+                                        <option value="saab">Cloud & Networking Admin (CCNA/AWS)</option>
+                                        <option value="volvo">Cloud & Networking Admin (CCNA/MS Azure)</option>
+                                        <option value="saab">Cloud & Server Admin (MCSE/AWS/Hardware)</option>
+                                        <option value="volvo">Cloud & Server Admin (MCSE/MS Azure/Hardware)</option>
+                                        <option value="saab">Cloud & Server Admin (RHCE/AWS/Hardware)</option>
+                                        <option value="volvo">Cloud & Server Admin (RHCE/MS Azure/Hardware)</option>
+                                        <option value="saab">Cloud & Server Admin (RHCE/MS Azure/Hardware)</option>
+                                        <option value="volvo">Cloud, Networking, & Server Admin (CCNA/AWS/AZURE/MCSE/RHCE/Hardware)</option>
+                                    </optgroup>
+                                    <optgroup label="Others">
+                                        <option value="volvo">Academic Project</option>
+                                        <option value="saab">MS Office (Word/Excel/Power Point/Outlook)</option>
+                                        <option value="volvo">Advanced MS Excel</option>
+                                        <option value="saab">Graphic Designing (Photoshop)</option>
+                                        <option value="volvo">Graphic Designing (Photoshop/Illustrator)</option>
+                                        <option value="saab">None of the above, will discuss directly</option>
+                                    </optgroup>
                                 </select>
                                 <label className="labelreg">Mobile Number (required)</label>
                                 <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="" />
@@ -69,7 +123,7 @@ let Registerform = () => {
                             </form>
                         </div>
                         <div className="col-lg-6 regcol ">
-                            <form>
+                            <form className="reg-form">
                                 <label className="labelreg">Guardian's Name</label>
                                 <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" />
                                 <label className="labelreg">Guardian's Occupation</label>

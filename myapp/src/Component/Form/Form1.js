@@ -9,9 +9,9 @@ let Form1=()=>{
                         <div className="col-lg-6 col-md-8">
                             <NavLink to="tel:+919745936073"><img src={formimg} className="imgfrm" /></NavLink>
                         </div>
-                        <div className="col-lg-6  col-md-5 mt-5">
+                        <div className="col-lg-6  col-md-5 mt-5 ">
                             <h2 className="frmh2">SCOPE INDIA <br />is open 365 days a year</h2>
-                            <p className="frmp">We are open 7 days 24 hrs to talk to you and listen to<br />your queries. </p>
+                            <p className="frmp">We are open 7 days 24 hrs to talk to you and listen to your queries. </p>
                             <h3 className="call">GET A FREE CALL BACK</h3>
                             <form>
                                 <div className="form1" >

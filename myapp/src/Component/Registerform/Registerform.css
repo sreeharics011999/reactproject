@@ -33,7 +33,7 @@ label{
     /* margin-bottom: 5%; */
 
 }
-form{
+.reg-form{
     border: 1px solid black;
     margin: 8%;
     padding: 5%;
@@ -46,4 +46,7 @@ form{
 }
 .locbg{
     background-color: #071e60;
+}
+option{
+    color:deepskyblue
 }
