@@ -48,5 +48,11 @@ label{
     background-color: #071e60;
 }
 option{
-    color:deepskyblue
+  color: #45c8f0;
+}
+optgroup{
+color: #49aae2;
+}
+.regselect{
+    appearance: none;
 }

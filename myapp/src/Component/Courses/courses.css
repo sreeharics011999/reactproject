@@ -6,9 +6,6 @@
     background-position: center top;
     background-attachment: fixed;
 }
-.container{
-    overflow: scroll;
-}
 h6{
     color: white;
     font-family: viga-Regular;

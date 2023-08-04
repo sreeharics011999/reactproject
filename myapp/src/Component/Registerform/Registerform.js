@@ -34,7 +34,7 @@ let Registerform = () => {
                                 <label className="labelreg">Educational Qualification</label>
                                 <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" />
                                 <label className="labelreg">Choose your course (required)</label>
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select regselect" aria-label="Default select example">
                                     <option selected>Choose your course!</option>
                                     <optgroup label="Software Programming Courses">
                                         <option value="volvo">PHP Advanced Full Stack Software Internship</option>

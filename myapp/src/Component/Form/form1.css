@@ -25,14 +25,16 @@
 }
 
 .frmh2 {
-    font-weight: 700;
+    font-weight: 600;
     color:#000c81;
     font-family: Viga-Regular;
     margin-bottom: 7%;
+    font-size: x-large;
 }
 
 .frmp {
     color: #050a4c;
+    text-align: justify;
 }
 .imgfrm {
     width: 100%;
