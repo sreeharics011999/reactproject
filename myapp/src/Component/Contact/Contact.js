@@ -19,7 +19,7 @@ let Contact = () => {
         <div className="container">
           <h2 className="location">Location</h2>
           <div className="row">
-            <div className="col-lg-4 col-md-12 text-light">
+            <div className="col-lg-4 col-xl-4 col-md-6 col-sm-12 text-light">
               <div className="card  mx-auto" style={{ width: "18rem", backgroundColor: "#041a6b", border: "1px solid white" }}>
                 <div className="card-body">
                   <h3 className="card-title">Trivandrum, Kerala</h3>
@@ -31,7 +31,7 @@ let Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-12">
+            <div className="col-lg-4 col-xl-4 col-md-6 col-sm-12">
               <div className="card text-light mx-auto" style={{ width: "18rem", backgroundColor: "#041a6b", border: "1px solid white" }}>
                 <div className="card-body">
                   <h3 className="card-title text-light">Kochi,Kerala</h3>
@@ -43,7 +43,7 @@ let Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12">
+            <div className="col-lg-4 col-xl-4 col-md-12  col-sm-12">
               <div className="card text-light mx-auto" style={{ width: "18rem", backgroundColor: "#041a6b", border: "1px solid white" }}>
                 <div className="card-body">
                   <h3 className="card-title">Nagercoil, Tamil Nadu</h3>

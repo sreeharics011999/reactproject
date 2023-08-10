@@ -20,7 +20,7 @@ let Home = () => {
             </div>
             <Carosel />
             <div className="imgpng"><img src={Subbg} /></div>
-            <Form1/>
+            <Form1 />
             <div className="discription-container">
                 <div className="container discription-container1">
                     <img className="star" src={star} />
@@ -46,50 +46,49 @@ let Home = () => {
                 </div>
             </div>
             <div className="bg-light">
-                <div className="ul-container container">
-                    <div className="card-group">
-                    <NavLink className="Navcard">
-                        <div className="card bg-light pe-5">
-                            <img src={ul1} className="card-img-top ulimg" alt="..." />
-                            <div className="line"></div>
-                            <div className="card-body">
-                                <h4 className="card-title tittleh4">Training</h4>
-                                <p className="card-text discription-para">You are trained under Suffix E <br/>Solutions working professionals,<br/> on-the-job training model.</p>
+                <div className="container ul-container">
+                    <div className="row">
+                        
+                            <div className="col-lg-3 bg-light pe-5 ">
+                            <NavLink className="Navcard">
+                                <img src={ul1} className=" ulimg" alt="..." />
+                                <h4 className=" tittleh4">Training</h4>
+                                <p className=" discription-para2">You are trained under Suffix E Solutions working professionals,on-the-job training model.</p>
+                                </NavLink>
                             </div>
-                        </div>
-                        </NavLink>
-                        <NavLink className="Navcard">
-                        <div className="card bg-light pe-5">
-                            <img src={ul2} className="card-img-top  ulimg" alt="..." />
-                            <div className="card-body">
-                                <h4 className="card-title tittleh4">Internship</h4>
-                                <p className="card-text discription-para">After course completion, you will<br/> be proceeded to live projects<br/> with a 6 months experience<br/> certificate.</p>
+                        
+                        
+                            <div className="col-lg-3 bg-light pe-5 ">
+                            <NavLink className="Navcard">
+                                <img src={ul2} className="ulimg" alt="..." />
+                                <h4 className="tittleh4">Internship</h4>
+                                <p className=" discription-para2">After course completion, you will be proceeded to live projects with a 6 months experience certificate.</p>
+                                </NavLink>
                             </div>
-                        </div>
-                        </NavLink>
-                        <NavLink className="Navcard">
-                        <div className="card bg-light pe-5">
-                            <img src={ul3} className="card-img-top  ulimg" alt="..." />
-                            <div className="card-body">
-                                <h4 className="card-title tittleh4">Grooming</h4>
-                                <p className="card-text discription-para">CV Preparation, Interview<br/> Preparation, and Personality<br/> Development.</p>
+                        
+                        
+                            <div className="col-lg-3 bg-light pe-5 ">
+                            <NavLink className="Navcard">
+                                <img src={ul3} className="ulimg" alt="..." />
+                                <h4 className="tittleh4">Grooming</h4>
+                                <p className=" discription-para2">CV Preparation, Interview Preparation, and Personality Development.</p>
+                                </NavLink>
                             </div>
-                        </div>
-                        </NavLink>
-                        <NavLink className="Navcard">
-                        <div className="card bg-light pe-5">
-                            <img src={ul4} className="card-img-top  ulimg" alt="..." />
-                            <div className="card-body">
-                                <h4 className="card-title tittleh4">Placement</h4>
-                                <p className="card-text discription-para">Gives 100% FREE placement<br/> support to all our fellow techies<br/> through SCOPE INDIA's <br/>Placement Cell.</p>
+                        
+                        
+                            <div className="col-lg-3 bg-light pe-5 ">
+                            <NavLink className="Navcard">
+                                <img src={ul4} className="ulimg" alt="..." />
+                                <h4 className=" tittleh4">Placement</h4>
+                                <p className=" discription-para2">Gives 100% FREE placement support to all our fellow techies through SCOPE INDIA's Placement Cell.</p>
+                                </NavLink>
                             </div>
-                        </div>
-                        </NavLink>
+                        
                     </div>
                 </div>
             </div>
-            <Footertop1/>
-            <Footer/>
+            <Footertop1 />
+            <Footer />
         </div>
     )
 }

@@ -17,13 +17,11 @@
 .link2:hover {
   text-decoration: underline;
   color: white;
-  opacity: 100%;
 }
 
 .link3:hover {
   text-decoration: underline;
   color: white;
-  opacity: 100%;
 }
 
 .span2 {
@@ -43,6 +41,9 @@
 @media only screen and (max-width: 768px) {
   .img6 {
      width: 75%;
+  }
+  .link2{
+    display: block;
   }
   
 }

@@ -46,4 +46,10 @@ font-weight: 600;
 .para2{
     text-align: justify;
 }
+@media only screen and (max-width: 768px) {
+    .star{
+        margin-left: 33vw;
+    }
+}
+
 
